@@ -20,7 +20,7 @@
 
 /* ***************************************************************** */
 
-.w[data-rend="red"] {
+/* .w[data-rend="red"] {
   color: red !important;
 }
 .hi[data-rend="red"] {
@@ -59,4 +59,51 @@ span.analogue span.analogue__text span.quote {
 span.quote sup.iconbis-evt_quote-left,
 span.quote sup.iconbis-evt_quote-right {
 	display: none;
+} */
+ 
+
+.p {
+	/* font-family: 'Montserrat', sans-serif; */
+	font-family: "Source Serif 4", serif;
+	font-optical-sizing: auto;
 }
+
+body {
+	/* background-color: #cbcec0; */
+	font-family: Montserrat, sans-serif;
+}
+body>header, body>header i {
+	background-color: #cbcec0;
+    color: #262c11;
+	font-weight: bold;
+	padding-left: 5%;
+	/* width: 90%;
+	left: 5%;
+	position:relative; */
+}
+
+/* Global menu button colors */
+.globalMenu {
+	padding-right: 5%;
+}
+
+.globalMenu button-switch .buttonSwitch-icon {
+	color: #7b7c73;
+	
+}
+.buttonSwitch-active .icon, 
+.buttonSwitch:hover .icon {
+	color: #262c11 !important;
+}
+
+/* Selectors style and bo */
+.selector, span.buttonSwitch {
+	padding: 0 10px;
+}
+
+
+/* Semantic colors */
+.diplomaticEdition .del {
+	background-color: #ba6262;
+}
+
