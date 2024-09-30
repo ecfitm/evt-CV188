@@ -62,7 +62,7 @@ span.quote sup.iconbis-evt_quote-right {
 } */
 
 
-.p {
+.p, .w {
 	/* font-family: 'Montserrat', sans-serif; */
 	font-family: "Junicode", Times, serif;
 	font-optical-sizing: auto;
@@ -73,8 +73,7 @@ body {
 	font-family: Montserrat, sans-serif;
 }
 
-body>header,
-body>header i {
+body>header {
 	background-color: #cbcec0;
 	color: #262c11;
 	font-weight: bold;
